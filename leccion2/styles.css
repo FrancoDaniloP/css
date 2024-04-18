@@ -1,0 +1,103 @@
+/* h1 {
+  color: #48e;
+  font-family: sans-serif;
+  margin: 10px;
+} */
+
+/*Cuando pasamos el mouse por encima del h1*/
+/* h1:hover {
+  color: black;
+  background-color: #ccc;
+} */
+
+/*Mientas se esté clickeando el h1*/
+/* h1:active {
+  background-color: #999;
+  color: #fff;
+}
+
+ul {
+  background-color: #999;
+  padding: 0;
+  text-decoration: none;
+} */
+
+/*Seleccionando el primer li*/
+/* li:first-child {
+  color: red;
+} */
+
+/*seleccionando un elemento que no sea ni primero ni ultimo*/
+/* li:nth-child(2) {
+  color: rgb(116, 7, 194);
+}
+
+li:nth-child(2n) {
+  background-color: #4c4b4b;
+}
+
+li:nth-child(3) {
+  color: rgb(10, 231, 99);
+}
+
+li:nth-child(4) {
+  color: rgb(255, 1, 1);
+}
+
+li:nth-child(6) {
+  color: rgb(4, 171, 248);
+}
+
+li:nth-child(8) {
+  color: rgb(179, 249, 2);
+}
+
+
+li:last-child {
+  color: #00f;
+}
+*/
+
+/*Validando inputs con la pseudoclase valid e invalid*/
+/* input:invalid {
+  color: red;
+}
+input:valid {
+  color: rgb(24, 168, 24);
+}
+
+section :is(.elemento1, .elemento6, .elemento10, .elementotitle) {
+  color: rgb(0, 102, 254);
+}
+section:has(.elemento1) {
+  background-color: #000;
+} */
+
+/*PSEUDOELEMENTOS*/
+h1::first-letter {
+  color: blue;
+  font-size: 2em;
+}
+
+div::first-line {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+h1::selection {
+  background-color: chartreuse;
+}
+
+input::placeholder {
+  color: blue;
+}
+
+li::before {
+  content: "Antes: ";
+  color: red;
+}
+
+li::after {
+  content: "Despues ";
+  color: blue;
+}

@@ -1,0 +1,25 @@
+/*COMENTARIOS EN CSS SON ASI Y NA MAS*/
+
+/*selector de atributo*/
+img[src="images.jpeg"] {
+  width: 300px;
+}
+
+ul li {
+  color: #666;
+}
+
+/*selector por hijo directo*/
+li > em {
+  color: red;
+}
+
+/*Selector adyacente*/
+h1 + p {
+  color: blue;
+}
+
+h1,
+p {
+  color: brown;
+}

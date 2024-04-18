@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ccc;
+  font-size: 2em;
+}
+
+.box {
+  height: 85px;
+  width: 85px;
+  background-color: rgb(3, 151, 3);
+  position: fixed;
+  border-radius: 50%;
+  bottom: 30px;
+  right: 50px;
+  text-align: center;
+  place-content: center;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.box:hover {
+  background-color: rgb(2, 103, 2);
+}
+
+.box__icon {
+  color: white;
+  margin: auto;
+  font-size: 2.3em;
+}
