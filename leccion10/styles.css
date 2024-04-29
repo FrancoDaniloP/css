@@ -11,27 +11,27 @@ body {
 
 .flexbox {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   margin: 20px;
   border: 2px solid #000;
   justify-content: space-evenly;
-  height: 500px;
+  height: 200px;
   align-items: center;
-  background-color: azure;
-}
-
-.flex-item {
-  width: 150px;
-  height: 150px;
-  background-color: #911;
-  color: white;
-  text-align: center;
-  font-size: 30px;
+  background-color: #fff;
 }
 
 .flex-item:first-child {
   background-color: #f77;
-  order: 0;
+  flex-shrink: 5;
+}
+
+.flex-item {
+  background-color: #911;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  width: 200px;
+  flex-shrink: 1;
 }
 
 .flex-item:last-child {

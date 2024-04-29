@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #0d072b;
+  color: #fff;
+}
+
+div,
+header,
+nav,
+ul,
+h1,
+h2,
+p,
+img {
+  box-sizing: border-box;
+}
+
+/*HEADER SECTION*/
+.header {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-image: url("./img/fondo2.jpg");
+  display: flex;
+}
+
+.header__overlay {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #0d072b;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__item-container {
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  text-align: center;
+  max-width: 700px;
+}
+
+.header__item-container p {
+  text-wrap: pretty;
+}
+
+.header__img {
+  min-width: 200px;
+  max-width: 40%;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 40px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.3rem;
+  text-wrap: balance;
+}
+
+/*NAVBAR SECTION*/
+
+.nav {
+  background-color: #e8dcdc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px 20px;
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
+  box-shadow: 0 0 25px #0006;
+}
+
+.nav__ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav__item {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav__logo-container,
+.nav__ul-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav__ul-container {
+  flex-grow: 4;
+}
+
+.nav__link {
+  color: #330eed;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 0;
+  transition: background-color 0.26s, border-radius 0.25s, outline 0.27s,
+    outline-offset 0.27s;
+  margin: 2px;
+  outline: 0;
+  outline-offset: 0;
+}
+
+.nav__link:hover {
+  background-color: #190a6280;
+  border-radius: 20px;
+  outline: 2px solid #190a62ab;
+  outline-offset: -6px;
+}
+
+.link--login {
+  background-color: #0d072b;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 24px;
+  margin-left: 15px;
+}
+
+.link--login:hover {
+  background-color: #0d072cbd;
+  outline: none;
+}
+
+.nav__logo {
+  width: 60px;
+  height: 40px;
+}
+
+/*MAIN SECTION*/
+
+.main {
+  font-size: 25px;
+  max-width: 1010px;
+  margin: auto;
+}
